@@ -9,7 +9,8 @@
     "dev": "nodemon server.js",
     "test": "jest --experimental-vm-modules",
     "test:watch": "jest --watch --experimental-vm-modules",
-    "install:setup": "./scripts/install.sh"
+    "install:setup": "./scripts/install.sh",
+    "build": "echo 'No build step required'"
   },
   "dependencies": {
     "bcryptjs": "^3.0.3",
